@@ -18,35 +18,45 @@ eungyeole님이 velog-readme-stats 개발 후기와 리포지토리를 보며,
 
 ## Tistory 뱃지 생성
 
-> ?name= 의 값을 변경하세요
+> name= 의 값을 변경하세요.
 
 ```
-[![Tistory Name Badge](https://tistory-readme-stats.vercel.app/api/badge?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Name Badge](https://tistory-readme-stats.vercel.app/api/badge?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
 
-[![Tistory Name Badge](https://tistory-readme-stats.vercel.app/api/badge?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Name Badge](https://tistory-readme-stats.vercel.app/api/badge?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 
 ## 최신 글 가져오기
-> ?name= 의 값을 변경하세요
+> name= 의 값을 변경하세요
 
 ```
-[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
-[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 ## 특정 글 가져오기
 > postId= 의 값을 추가하세요
 
 ```
-[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=21&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
-[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=21&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18)](https://github.com/MoonJuhan/tistory-readme-stats)
+
+## 설명 추가
+> description= 의 값을 추가하세요
+
+```
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0)](https://github.com/MoonJuhan/tistory-readme-stats)
+```
+[![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0)](https://github.com/MoonJuhan/tistory-readme-stats)
+
+
 ## 다크 테마 적용
 > color=dark 를 추가하세요
 
 ```
-[![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=21&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
-[![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=21&subTitle=%ED%98%B8%EB%A1%A4%EB%A1%A4%EB%A1%A4&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats-public)
+[![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats)
 
 [version]: https://img.shields.io/badge/version-v1.0.0-green
 [license]: https://img.shields.io/badge/license-MIT-blue.svg
