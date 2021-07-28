@@ -1,0 +1,21 @@
+{
+  "name": "tistory-readme-stats",
+  "version": "0.0.1",
+  "description": "Tistory Readme Stats",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonJuhan/tistory-readme-stats.git"
+  },
+  "author": "MoonJuhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonJuhan/tistory-readme-stats/issues"
+  },
+  "homepage": "https://github.com/MoonJuhan/tistory-readme-stats#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
