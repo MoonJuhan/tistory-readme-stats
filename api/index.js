@@ -4,11 +4,8 @@ const { refineTags } = require('../src/tags');
 const app = require('express')();
 const axios = require('axios');
 
-const ACCESS_TOKEN = 'YOUR ACCESS TOKEN';
-  app.get('/', async (req, res) => {
+const ACCESS_TOKEN = process.env.token;
 
-    res.send(process.env.token)
-  })
 
 app.get('/api', async (req, response) => {
   response.setHeader('Content-Type', 'image/svg+xml');
