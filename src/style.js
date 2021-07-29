@@ -29,6 +29,7 @@ export const style = (theme) => {
   }
   .card-background {
     fill: #242a2d;
+    stroke: #30353d;
   }
 </style>
     `
@@ -60,6 +61,7 @@ export const style = (theme) => {
   }
   .card-background {
     fill: #fffefe;
+    stroke: #e4e2e2;
   }
 </style>
 `;
