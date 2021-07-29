@@ -6,21 +6,17 @@ const axios = require('axios');
 
 const ACCESS_TOKEN = process.env.token;
 
-
-app.get('/api', async (req, response) => {
-  response.setHeader('Content-Type', 'image/svg+xml');
-  let postId;
+app.get('/api', async (req, res) => {
   if (!req.query.name) {
-    response.send(`Error`);
+    res.send('tistory-readme-stats 의 사용법은 <a href="https://github.com/MoonJuhan/tistory-readme-stats">깃허브 리드미 문서</a>를 참고해주세요.');
   } else {
-    postId = req.query.postId || (await getNewestPostId(req.query.name));
+    const postId = req.query.postId || (await getNewestPostId(req.query.name));
+    res.setHeader('Content-Type', 'image/svg+xml');
+    renderCard(res, {
+      ...req.query,
+      ...(await getPostData(req.query.name, postId)),
+    });
   }
-  renderCard(response, {
-    color: req.query.color,
-    name: req.query.name,
-    description: req.query.description,
-    ...(await getPostData(req.query.name, postId)),
-  });
 });
 
 app.get('/api/badge', (req, response) => {
