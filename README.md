@@ -58,6 +58,10 @@ eungyeole님이 velog-readme-stats 개발 후기와 리포지토리를 보며,
 ```
 [![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats)
 
+---
+
+해당 프로젝트는 [eungyeole/velog-readme-stats](https://github.com/eungyeole/velog-readme-stats) 에서 포크되어 제작되었습니다.
+
 [version]: https://img.shields.io/badge/version-v1.0.0-green
 [license]: https://img.shields.io/badge/license-MIT-blue.svg
 [support]: https://img.shields.io/badge/support-Live-green
