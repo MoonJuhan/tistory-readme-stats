@@ -77,7 +77,7 @@ const renderCard = (
         </g>
 
         <g xmlns="http://www.w3.org/2000/svg" data-testid="main-card-bottom" transform="translate(0, 40)">
-          ${refineTags(tags)}
+          ${tags ? refineTags(tags) : null}
         </g>
       </svg>`);
 };
