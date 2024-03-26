@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/MoonJuhan/tistory-readme-stats#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.8",
     "express": "^4.17.1"
   }
 }
