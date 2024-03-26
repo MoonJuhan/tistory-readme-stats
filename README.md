@@ -1,8 +1,22 @@
-# tistory-readme-stats
+# tistory-readme-stats (Deprecated)
 
 > markdown에서 나의 Tistory 블로그 정보를 가져올 수 있는 도구입니다.
 
 ![version] ![support]
+
+## Deprecated!!!
+
+Tistory Open API 서비스 종료에 따라 해당 프로젝트는 서비스 종료 되었습니다.
+
+[Tistory Open API 종료 공지](https://notice.tistory.com/2664)
+
+ <br />
+
+---
+
+---
+
+<br />
 
 ## 개발 동기
 
@@ -27,41 +41,48 @@ eungyeole님이 velog-readme-stats 개발 후기와 리포지토리를 보며,
 [![Tistory Name Badge](https://tistory-readme-stats.vercel.app/api/badge?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 
 ## 최신 글 가져오기
+
 > name= 의 값을 변경하세요
 
 ```
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
+
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason)](https://github.com/MoonJuhan/tistory-readme-stats)
+
 ## 특정 글 가져오기
+
 > postId= 의 값을 추가하세요
 
 ```
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
+
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18)](https://github.com/MoonJuhan/tistory-readme-stats)
 
 ## 설명 추가
+
 > description= 의 값을 추가하세요
 
 ```
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
+
 [![Tistory Newest Post](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0)](https://github.com/MoonJuhan/tistory-readme-stats)
 
-
 ## 다크 테마 적용
+
 > color=dark 를 추가하세요
 
 ```
 [![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats)
 ```
+
 [![Tistory Dark Theme](https://tistory-readme-stats.vercel.app/api?name=formason&postId=18&description=Vue.js%20Electron%20Python%20%EC%8B%A4%ED%96%89%EA%B8%B0&color=dark)](https://github.com/MoonJuhan/tistory-readme-stats)
 
 ---
 
 해당 프로젝트는 [eungyeole/velog-readme-stats](https://github.com/eungyeole/velog-readme-stats) 에서 포크되어 제작되었습니다.
 
-[version]: https://img.shields.io/badge/version-v1.0.0-green
-[license]: https://img.shields.io/badge/license-MIT-blue.svg
-[support]: https://img.shields.io/badge/support-Live-green
+[version]: https://img.shields.io/badge/version-v1.1.0-green
+[support]: https://img.shields.io/badge/support-End-black
